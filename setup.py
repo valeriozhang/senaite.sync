@@ -2,21 +2,19 @@
 
 from setuptools import setup, find_packages
 
-version = '1.0.1'
+version = '1.0.1rc7'
 
 
 setup(
-    name='senaite.sync',
+    name='valer.sync',
     version=version,
-    description="SENAITE SYNC",
+    description="VALER SYNC",
     long_description=open("README.rst").read() + "\n" +
                      open("CHANGES.rst").read() + "\n" +
                      "\n\n" +
                      "Authors and maintainers\n" +
                      "-----------------------\n\n" +
-                     "- Nihad Mammadli\n" +
-                     "- Ramon Bartl (RIDING BYTES) <rb@ridingbytes.com>\n" +
-                     "- Juan Gallostra (naralabs) <jgallostra@naralabs.com>",
+                     "- Valerio Zhang (Valer Group LLC) <valerio.zhang@valer.us>",
     # Get more strings from
     # http://pypi.python.org/pypi?:action=list_classifiers
     classifiers=[
@@ -25,9 +23,9 @@ setup(
         "Framework :: Zope2",
     ],
     keywords='',
-    author='SENAITE Foundation',
-    author_email='hello@senaite.com',
-    url='https://github.com/senaite/senaite.sync',
+    author="Valer Group LLC",
+    author_email="valerio.zhang@valer.us",
+    url='https://github.com/valeriozhang/senaite.sync',
     license='GPLv3',
     packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},
@@ -36,8 +34,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
-        'senaite.api',
-        'senaite.jsonapi',
+        'valer.api==1.2.3rc7',
+        'valer.jsonapi==1.2.3rc1',
         'requests',
         'plone.api',
         'souper',
