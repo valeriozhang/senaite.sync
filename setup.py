@@ -34,8 +34,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
-        'valer.api==1.2.3rc9',
-        'valer.jsonapi==1.2.3rc8',
+        'valer.api==1.2.3rc10',
+        'valer.jsonapi==1.2.3rc9',
         'requests',
         'plone.api',
         'souper',
