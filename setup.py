@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = '1.0.1rc11'
+version = '1.0.1rc12'
 
 
 setup(
@@ -34,8 +34,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
-        'valer.api==1.2.3rc10',
-        'valer.jsonapi==1.2.3rc9',
+        'valer.api==1.2.3rc11',
+        'valer.jsonapi==1.2.3rc10',
         'requests',
         'plone.api',
         'souper',
